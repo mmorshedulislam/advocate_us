@@ -1,0 +1,526 @@
+/*-=-=-=-Google fonts=-=-=-=--=*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+/*-=-=-=-Font family=-=-=-=--=
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+/*-=-=-=-Common CSS=-=-=-=--=*/
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*-=-=-=-Header CSS=-=-=-=--=*/
+
+.advocate-header-area{
+	padding: 30px 0;
+	background: #ffffff;
+	position: relative;
+}
+.logo{}
+.menu-icon{
+	display: none;
+}
+.close{
+	display: none;
+}
+.menu{
+	float: right;
+	overflow: hidden;
+	display: block;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li {
+	list-style: none;
+	padding: 10px 15px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	color: #919191;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .5s;
+	padding-bottom: 10px;
+}
+
+.menu ul li a:hover{
+	border-bottom: 5px solid #e8bf5d;
+}
+
+
+/*-=-=-=-Banner CSS=-=-=-=--=*/
+
+.advocate-banner-area {
+	background: url(images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+.advocate-banner-area button{
+	border-radius: 20px;
+	color: black;
+	padding: 5px 10px;
+	font-family: 'Playfair Display', serif;
+	
+}
+.advocate-banner-area button {
+	border-radius: 20px;
+	color: white;
+	padding: 8px 20px;
+	font-family: 'Playfair Display', serif;
+}
+
+.banner-info{
+	width: 60%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 20%;
+	left: 20%;
+	
+	
+}
+.banner-info-text {
+	float: left;
+	border-left: 5px solid #e8bf5d;
+	padding: 10px 20px;
+}
+.banner-info-text h1{}
+.banner-info-text span{}
+.banner-info-button{
+	float: right;
+}
+.banner-info-button button{
+	background: #E8BF5D;
+}
+.banner-info h1, span{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	
+}
+
+/*-=-=-=-About CSS=-=-=-=--=*/
+
+.advocate-about-area{
+	background: #ffffff;
+	padding: 80px 0;
+}
+.section-heading{
+	border-left: 5px solid #e8bf5d;
+	padding-left: 20px;
+	margin-bottom: 50px;
+
+}
+.section-heading h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	margi
+}
+.section-heading p{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+.advocate-about-details{}
+.about-history{}
+.about-history h4{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 30px;
+
+}
+.about-history p{
+	font-size: 15px;
+}
+.about-history span{
+	font-weight: bold;
+}
+
+
+
+/*
+.about-history span{}
+.about-history span p b{
+	margin-top: 100px;
+	text-align: justify;
+}
+
+.about-history-details{
+	margin-top: 40px;
+}
+.about-history-details p{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+*/
+.about-expertise{}
+.about-expertise h4{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 30px;
+}
+.about-expertise p{
+	margin-top: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	font-size: 15px;
+}
+
+
+/*-=-=-=-Practis CSS=-=-=-=--=*/
+
+
+.advocate-practice-area{
+	background: #111111;
+	padding: 80px 0;
+}
+.advocate-practice-area .section-heading{
+	color: #fff;
+	margin-bottom: 100px;
+}
+.Practis-area-icon-details{}
+.Practis-area-icon{}
+.Practis-area-icon img{
+	width: 70%;
+}
+.Practis-area-heading {}
+.Practis-area-heading h2{
+	font-family: 'Playfair Display', seri
+	f;
+	color: #fff;
+	font-size: 21px;
+}
+.Practis-area-heading p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+
+}
+
+.Practis-area-icon img {
+	width: 100%;
+}
+/*-=-=-=-Attorny CSS=-=-=-=--=*/
+
+
+.advocate-attorny-area{
+	padding: 80px 0;
+	background: #ffffff;
+}
+.attornys{}
+.attorny-image {}
+.attorny-image img{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.attorny-info{}
+.attorny-info h4{
+	font-family: 'Playfair Display', seri;
+}
+.attorny-info p{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/*-=-=-=-Clients CSS=-=-=-=--=*/
+
+.advocate-clients-area{
+	padding: 80px;
+	background: url(images/banner3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: .8s;
+}
+.advocate-clients-area .section-heading{
+	color: #fff;
+}
+.clients-comments{}
+.clients-image{}
+.clients-image img{
+	box-shadow: 25px 15px #e8bf5d;
+}
+.cotation p{
+	color: #fff;
+	font-size: 70px;
+	font-family: 'Playfair Display', seri;
+}
+.clients-comments-info{}
+.clients-comments-info p:first-child{
+	font-size: 70px;
+	color: #fff
+	font-family: 'Playfair Display', seri;
+
+}
+.clients-comments-info p{
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+.clients-comments-info h4{
+	color: #fff;
+	font-family: 'Playfair Display', seri;
+
+}
+.clients-comments-info p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*-=-=-=-Publication CSS=-=-=-=--=*/
+
+
+.advocate-publications-area{
+	padding: 80px 0;
+	background: #fff;
+}
+.publication-members{}
+.publication-member-profile{
+	border-bottom: 5px solid #e8bf5d;
+	padding-bottom: 50px;
+}
+.publication-member-image{}
+.publication-member-image img{
+	margin-bottom: 20px;
+}
+.publication-member-info{}
+.publication-member-info h4{
+	font-family: 'Playfair Display', seri;
+
+}
+.publication-member-info-left{
+	float: left;
+}
+.publication-member-info-left p{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.publication-member-info-right{
+	float: right;
+}
+.publication-member-info-right p{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.publication-member-info-details{}
+.publication-member-info-details p{
+	margin-top: 50px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+
+}
+.publication-member-details-left{
+	float: left;
+}
+.publication-member-details-left p{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.publication-member-details-right{
+	float: right;
+}
+.publication-member-details-right p{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/*-=-=-=-Questions CSS=-=-=-=--=*/
+
+.advocate-questions-area{
+	padding: 80px 0;
+	background: #111111;
+
+}
+.advocate-questions-area .section-heading{
+	color: #fff;
+}
+
+.questions{
+
+}
+
+.questions p {
+	color: #fff;
+	border-bottom: 2px solid #E7BF5D;
+	padding-bottom: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+}
+.questions p:hover{
+	color: #E7BF5D;
+}
+.questions p span{
+	float: right;
+}
+.q-answer {
+
+	background: #E7BF5D;
+	color: black;
+	padding: 40px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+
+
+
+
+/*
+.questions{}
+.questions-item{
+	border-bottom: 2px solid #e8bf5d;
+	padding-bottom: 36px;
+}
+.questions-item-left{
+	float: left;
+}
+.questions-item-left p{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+
+}
+.questions-item-left p:hover{
+	color: #e8bf5d;
+}
+.questions-item-right p:hover .questions-item-right b{
+	color: #e8bf5d;
+}
+.questions-item-right{
+	float: right;
+}
+.questions-item-right b{
+	font-size: ;
+	color: #fff;
+}
+.questions-answer{
+	width: 100%;
+	height: 100%;
+	background: #e8bf5d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.questions-answer p{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 20px;
+	font-size: 14px;
+*/
+
+}
+
+/*-=-=-=-Contact CSS=-=-=-=--=*/
+
+
+.advocate-contact-area{
+	padding: 80px;
+	background: #fff;
+	overflow: hidden;
+}
+.contact-page{
+	width: 100%;
+	box-shadow: 15px 10px 5px #fefefd;
+	
+}
+.contact-page {
+	width: 100%;
+	box-shadow: -2px 6px 22px 5px #b7b7b0;
+	padding: 60px;
+}
+
+.advocate-contact-area .section-heading h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.contact-form{
+
+}
+.contact-form form{}
+.contact-form .form-group{}
+.contact-form .form-group input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+.contact-button{}
+.contact-button button{
+	border-radius: 20px;
+	background: #e8bf5d;
+}
+
+/*-=-=-=-Foter CSS=-=-=-=--=*/
+
+.advocate-footer-area{
+	padding: 10px 0;
+	background: #111111;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.footer-text {
+	float: left;
+}
+.footer-text p{
+	color: #fff;
+	font-family: 'Playfair Display', seri;
+
+}
+.footer-social-icon {
+	float: right;
+	overflow: hidden;
+}
+.footer-social-icon ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-social-icon ul li{
+	list-style: none;
+	padding: 5px 10px;
+}
+.footer-social-icon ul li a{
+	color: white;
+}
+.footer-social-icon ul li a img{
+	width: 15px;
+	height: 15px;
+}
+
+/*-=-=-Top=-=-=-*/
+.top{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: yellow;
+	font-size: 30px;
+	opacity: 0;
+	
+}
+
+

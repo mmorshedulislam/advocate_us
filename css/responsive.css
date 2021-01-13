@@ -1,0 +1,307 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+.menu {
+	display: block;
+	background: #800000b0;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	right: 100%;
+	height: 100vh;
+	width: 100%;
+}
+.close {
+	display: block;
+	float: right;
+	margin-right: 10%;
+	margin-top: 5%;
+	font-size: 30px;
+}
+
+.menu ul {
+	display: block;
+	padding: 40px 60px;
+	text-align: center;
+}
+
+.menu-icon{
+	display: block;
+	float: right;
+}
+.menu-icon {
+	display: block;
+	float: right;
+	margin-top: -27px;
+	margin-right: 10%;
+	font-size: 20px;
+}
+
+.banner-info-text {
+	float: none;
+	border-left: 5px solid #e8bf5d;
+	padding: 10px 20px;
+	width: 120%;
+}
+.banner-info-button {
+	float: none;
+}
+.banner-info-button button {
+	background: #E8BF5D;
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 50px;
+}
+
+
+
+
+
+
+.section-heading h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+
+}
+.section-heading p {
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+.Practis-area-icon {
+	width: 15%;
+	margin: 30px auto;
+	margin-bottom: 30px;
+}
+
+.Practis-area-heading h2 {
+	font-family: 'Playfair Display', seri f;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Practis-area-heading p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	text-align: justify;
+}
+.publication-member-profile {
+	border-bottom: 5px solid #e8bf5d;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+}
+
+
+
+
+.contact-page {
+	width: 100%;
+	box-shadow: -2px 6px 22px 5px #b7b7b0;
+	padding: 60px;
+	margin-bottom: 50px;
+}
+
+.advocate-contact-area iframe {
+	border: 0;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+}
+
+
+.contact-form {
+	width: 100%;
+}
+.contact-form .form-group input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 10px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.footer-text{
+	text-align: center;
+	float: none;
+}
+
+.footer-social-icon{
+	text-align: center;
+	float: none;
+}
+.advocate-clients-area .section-heading {
+	color: #fff;
+	width: 300px;
+	margin-left: -50px;
+}
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.menu ul li a {
+	text-transform: uppercase;
+	color: #919191;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .5s;
+	padding-bottom: -22px;
+	text-decoration: none;
+}
+
+.menu ul li {
+	list-style: none;
+	padding: 0px 8px;
+}
+.logo {
+	width: 140%;
+}
+.advocate-banner-area {
+	background: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 720px;
+	position: relative;
+}
+
+.banner-info {
+	width: 60%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 20%;
+	left: 10%;
+	padding: 10px 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+.banner-info-button {
+	float: right;
+	margin-top: 5%;
+}
+
+.Practis-area-icon {
+	width: 150%;
+}
+
+.Practis-area-heading {
+	margin-bottom: 40px;
+}
+.contact-page {
+	width: 100%;
+	box-shadow: -2px 6px 22px 5px #b7b7b0;
+	padding: 60px;
+	margin-bottom: 50px;
+}
+
+.advocate-contact-area iframe {
+	border: 0;
+	width: 100%;
+	height: 250px;
+}
+
+
+.contact-form {
+	width: 100%;
+}
+.contact-form .form-group input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 10px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.publication-members {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.publication-member-profile {
+	border-bottom: 5px solid #e8bf5d;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+}
+
+.questions p {
+	color: #fff;
+	border-bottom: 2px solid #E7BF5D;
+	padding-bottom: 10px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.q-answer {
+	color: black;
+	text-align: justify;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.contact-form .form-group input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 10px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.menu ul li a {
+	text-transform: uppercase;
+	color: #919191;
+	font-size: 16px;
+	font-weight: 700;
+	transition: .5s;
+	padding-bottom: -22px;
+	text-decoration: none;
+}
+.banner-info-button {
+	float: right;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
