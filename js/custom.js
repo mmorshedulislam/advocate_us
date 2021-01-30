@@ -13,7 +13,7 @@
 
 	$('.menu-icon').on('click', function() {
 	  $('.menu').animate({
-	    'right' : '0'
+	    'left' : '0'
 	  });
 	});
 
